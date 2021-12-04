@@ -11852,3 +11852,8 @@ html {
 .copyright {
  background-color: #1a252f;
 }
+
+.error {
+  font-size: 0.875em;
+  color: #dc3545;
+}
