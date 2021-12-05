@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 function ContactForm() {
  return (
   <div>
-   <section className="page-section">
+   <section className="page-section" id="contact">
     <div className="container">
      <h2 className="mb-0 text-center page-section-heading text-uppercase text-secondary">
       Contact Me

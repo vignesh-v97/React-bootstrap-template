@@ -1,6 +1,19 @@
 import React from "react";
 
-const navTitles = ["portfolio", "about", "contact"];
+const navTitles = [
+ {
+  title: 'Portfolio',
+  url: '#portfolio'
+ },
+ {
+  title: 'About',
+  url: '#about'
+ },
+ {
+  title: 'contact',
+  url: '#contact'
+ }
+];
 
 function Navbar() {
  return (
@@ -11,7 +24,7 @@ function Navbar() {
    >
     <div className="container">
      <a className="navbar-brand" href="/">
-      Start Bootstrap
+      React Page
      </a>
      <button
       className="text-white rounded navbar-toggler text-uppercase font-weight-bold bg-primary"
@@ -26,11 +39,11 @@ function Navbar() {
      </button>
      <div className="collapse navbar-collapse" id="navbarResponsive">
       <ul className="navbar-nav ms-auto">
-       {navTitles.map((title, index) => {
+       {navTitles.map((res, index) => {
         return (
          <li key={index} className="mx-0 nav-item mx-lg-1">
-          <a className="px-0 py-3 rounded nav-link px-lg-3" href="#portfolio">
-           {title}
+          <a className="px-0 py-3 rounded nav-link px-lg-3" href={res.url}>
+           {res.title}
           </a>
          </li>
         );

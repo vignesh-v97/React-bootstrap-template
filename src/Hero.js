@@ -11,7 +11,7 @@ function Hero() {
       src="assets/img/avataaars.svg"
       alt="..."
      />
-     <h1 className="mb-0 masthead-heading text-uppercase">Start Bootstrap</h1>
+     <h1 className="mb-0 masthead-heading text-uppercase">React Page</h1>
      <Divider cName="divider-light" />
      <p className="mb-0 masthead-subheading font-weight-light">
       Graphic Artist - Web Designer - Illustrator
